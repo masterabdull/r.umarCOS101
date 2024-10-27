@@ -5,5 +5,7 @@ fn main () {
 
     let a = p * (1.0 - (r/100.0)).powf(t);
 
-    println!("The depreciated value of the television is {}",a)
+    let dep = p - a;
+
+    println!("The depreciated value of the television is {}",dep);
 }
